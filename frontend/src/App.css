@@ -1,0 +1,18 @@
+.app {
+  text-align:  center;
+  padding: 40px;
+}
+.title {
+  color: #22c55e;
+  font-size: 40px;
+}
+
+.start-button {
+background-color: #22c55e;
+color: wheat;
+padding: 12px 24px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+
