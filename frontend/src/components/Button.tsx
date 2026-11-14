@@ -1,16 +1,17 @@
-
-import './Button.css';
+import { Link } from "react-router";
+import "./Style/Button.css";
 
 interface ButtonProps {
   label: string;
+  to: string;
 }
-function Button({label} :ButtonProps )
-{
-    return(
-        <>
-        <button className="start-button">{label}</button>
-        </>
-    )
+
+function Button({ label, to }: ButtonProps) {
+  return (
+    <Link to={to} className="start-button">
+      {label}
+    </Link>
+  );
 }
 
 export default Button;
