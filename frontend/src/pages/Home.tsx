@@ -43,7 +43,7 @@ function Home() {
               <Button label="Get Started" to="/register" />
 
               <a
-                href="https://7682411285062839686.stitched.dev/frame.html?v=3#"
+                href="https://ouhfid.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="demo-button"
